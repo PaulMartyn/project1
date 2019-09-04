@@ -1,0 +1,61 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "e12ab7840a5e4b6e4be982c9fd6a906ff0789ca2"
+      }
+    ],
+    "outputSha": "bd0889c47a0c2d78e56cfdc7cd1adf5494dfcc73",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "picker-dark.css",
+        "sha": "eab42daa5b4b57de4eb1f2e1ff1a8bde53283128"
+      }
+    ],
+    "outputSha": "24769ad359200c2205ae36eac34942017c17ff44",
+    "input": "picker-dark.css",
+    "output": [
+      "picker-dark.css.map",
+      "picker-dark.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "a679bf222eea03d89f7e3d8e085f6f8025ceb2b6"
+      }
+    ],
+    "outputSha": "69bad90d195396358d26b538754fe908f96352d5",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.12.0::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.sass",
+        "sha": "916483459ef37ee11a837270876092ca57de58db"
+      }
+    ],
+    "outputSha": "fa49e139475e58f81cad6665fddb8426aab7c00f",
+    "input": "styles/main.sass",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  }
+]

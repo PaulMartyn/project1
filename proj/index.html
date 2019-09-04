@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-widthmaximum-scale=1minimum-scale=0.5">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="picker-dark.css" rel="stylesheet">
+    <script src="datepicker.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="section">
+            <div class="logoImg"><a href="#"><img src="./img/logo1.png" alt="logo"></a></div>
+            <div class="infoPart">
+                <div class="topPart">
+                    <div><span class="accName">monblanproject</span></div>
+                    <div><a class="startBtn" href="#">Start on 17-02-2016</a></div>
+                </div>
+                <div class="stats">
+                    <p class="stat"><b>870</b> posts</p>
+                    <p class="stat"><b>11,787</b> followers</p>
+                    <p class="stat"><b>112</b> following</p>
+                </div>
+                <div class="dateSelect">
+                    <div id="dateItemProp">
+                        <p>Date</p>
+                    </div>
+                    <div id="dateItemProp" class="dateFrom">
+                        <div class="inputfield"><input type="text" class="input-inline" id="input-inline1" value="from">
+                            <input type="button" class="inputBtn" id="clear" name="clear" value="X"
+                                onclick="funClear1()"> <input type="button" class="inputBtn"
+                                style="padding:0; margin-right: -10px" id="toggler">
+                            <div id="pick-inline"></div>
+                        </div>
+                    </div>
+                    <div id="dateItemProp" class="dateTo">
+                        <div class="inputfield"><input type="text" class="input-inline" id="input-inline2" value="to">
+                            <input type="button" autocomplete="off" class="inputBtn" id="clear" name="clear" value="X"
+                                onclick="funClear2()"> <input type="button" class="inputBtn"
+                                style="padding:0; margin-right: -10px" id="toggler">
+                            <div id="pick-inline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="section">
+            <div class="blocks">
+                <div class="gallImg block1"><img src="./img/gallery/img1.png" alt=""></div>
+                <div class="gallImg block2"><img src="./img/gallery/img2.png" alt=""></div>
+                <div class="gallImg block3"><img src="./img/gallery/img3.png" alt=""></div>
+                <div class="gallImg block4"><img src="./img/gallery/img4.png" alt=""></div>
+                <div class="gallImg block5"><img src="./img/gallery/img5.png" alt=""></div>
+                <div class="gallImg block6"><img src="./img/gallery/img8.png" alt=""></div>
+                <div class="gallImg block7"><img src="./img/gallery/img6.png" alt=""></div>
+                <div class="gallImg block8"><img src="./img/gallery/img7.png" alt=""></div>
+                <div class="gallImg block9"><img src="./img/gallery/img9.png" alt=""></div>
+            </div>
+            <div class="loadBtn"><a href="#" class="loadMoreBtn">load more</a></div>
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

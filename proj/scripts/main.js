@@ -1,0 +1,2 @@
+function funClear1(){document.getElementById("input-inline1").value=""}function funClear2(){document.getElementById("input-inline2").value=""}function openbox(n,e){var t=document.getElementById(n);"block"==t.style.display?t.style.display="none":t.style.display="block"}window.addEventListener("load",function(){picker.attach("pick-inline","input-inline1","input-inline2")}),window.onload=function(){document.getElementById("toggler").onclick=function(){return openbox("picker-0",this),!1}};
+//# sourceMappingURL=main.js.map
